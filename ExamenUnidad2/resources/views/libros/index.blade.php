@@ -5,9 +5,9 @@
 <div class="row">
     <div class="col">
         <table class="table table-striped table-dark">
-            <thead class="thead-danger">
+            <thead class="thead-bg-warningm">
                 <tr>
-                    <th scope="col"><h2>ID</h2></th>
+                    <th scope="col">ID</th>
                     <th scope="col">TITULO</th>
                     <th scope="col">AUTOR</th>
                     <th scope="col">EDITORIAL</th>
@@ -23,11 +23,11 @@
                     <th scope="row">{{$libros->id}}</th>
                     <th>{{$libros->titulo}}</th>
                     <th>{{$libros->autor}}</th>
-                    <th>{{$libros->editorial}}</th>
+                    <th>{{$libros->editorial}}</th> 
                     <th>{{$libros->fecha_publicacion}}</th>
                     <th>{{$libros->numero_pagina}}</th>
                     <th><button type="button" class="btn btn-success">
-                            <a style="color: rgb(87, 45, 45);" href="{{route('libros.actualizar', $libros)}}"></a>
+                            <a style="color: rgb(73, 22, 22);" href="{{route('libros.actualizar', $libros)}}"></a>
                         </button></th>
                     <th>
                         <form action="{{route('libros.eliminar',$libros)}}" method="POST">

@@ -16,10 +16,10 @@
                 <div class="card mt-3" style="color:rgb(43, 107, 226)">
                     <p class="text-center mt-2"><h1> DATOS.</h1></p>
                     <div class="card-body" style="color:rgb(33, 64, 167)">
-                        <p><strong>Autor: </strong>{{$libro->autor}}</p>
-                        <p><strong>Editorial: </strong>{{$libro->editorial}}</p>
-                        <p><strong>Fecha: </strong>{{$libro->fecha_publicacion}}</p>
-                        <p><strong>Numero de paginas: </strong>{{$libro->numero_pagina}}</p>
+                        <p>Autor:{{$libro->autor}}</p>
+                        <p>Editorial:{{$libro->editorial}}</p>
+                        <p>Fecha:{{$libro->fecha_publicacion}}</p>
+                        <p>Numero de paginas:{{$libro->numero_pagina}}</p>
                     </div>
                 </div>
                 </p>
